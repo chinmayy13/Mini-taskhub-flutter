@@ -7,7 +7,7 @@ This project was built as part of an assignment to demonstrate end-to-end Flutte
 
 ---
 
-## ✨ Features
+## Features
 
 - Email & password authentication using Supabase  
 - Create, complete, and delete personal tasks  
@@ -20,7 +20,7 @@ This project was built as part of an assignment to demonstrate end-to-end Flutte
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Flutter** (Frontend)
 - **Supabase** (Authentication & Database)
@@ -28,7 +28,7 @@ This project was built as part of an assignment to demonstrate end-to-end Flutte
 
 ---
 
-## 📱 Screens Included
+## Screens Included
 
 - Login  
 - Sign Up  
@@ -40,19 +40,19 @@ This project was built as part of an assignment to demonstrate end-to-end Flutte
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/chinmayy13/mini-taskhub-flutter.git
 cd mini-taskhub-flutter
 ```
-##    Install Dependencies
+## Install Dependencies
 
 ```flutter pub get```
 
-## 3️⃣ Supabase Setup
+## Supabase Setup
 Create a Supabase Project
 - Go to https://supabase.com
 - Create a new project
@@ -95,7 +95,7 @@ on tasks for delete
 using (auth.uid() = user_id);
 ```
 
-### 4️⃣ Add Supabase Credentials
+### Add Supabase Credentials
 
 Open ```lib/main.dart``` and replace:
 ```bash
@@ -110,12 +110,12 @@ You can find these values in:
 Supabase Dashboard → Project Settings → API
 ```
 
-## 5️⃣ Run the App
+## Run the App
 ```
 flutter run
 ```
 
-## 🔁 Hot Reload vs Hot Restart
+## Hot Reload vs Hot Restart
 - Hot Reload
     Updates UI instantly without losing app state.
     Used for quick UI changes.
@@ -125,7 +125,7 @@ flutter run
     Used when state or providers change.
 
 
-## 🧠 Project Structure
+## Project Structure
 ```
 lib/
 ├── auth/           # Login & Signup
@@ -142,6 +142,6 @@ lib/
 ```
 
 
-### 👤 Author
+### Author
 Built by Chinmay
 Flutter | Supabase | Full-Stack Enthusiast
