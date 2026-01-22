@@ -48,7 +48,7 @@ This project was built as part of an assignment to demonstrate end-to-end Flutte
 git clone https://github.com/YOUR_USERNAME/mini-taskhub-flutter.git
 cd mini-taskhub-flutter
 ```
-##2️⃣ Install Dependencies
+## Install Dependencies
 
 ```flutter pub get```
 
